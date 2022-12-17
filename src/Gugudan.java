@@ -44,7 +44,6 @@ public class Gugudan {
 	
 		result = gugudan(result,symbol,second);
 	}
-		scanner.close();
   }
 }
 
