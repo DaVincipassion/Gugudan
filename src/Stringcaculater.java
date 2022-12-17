@@ -12,9 +12,8 @@ public class Stringcaculater {
 		
 		int first = Integer.parseInt(values[0]);
 		
-		int i = 1;
 		int result = first;
-		while ( i <values.length) {
+		for (int i=1; i <values.length; i +=2) {
 			String symbol = values[i];
 			System.out.println("symbol: "+ symbol);
 			
@@ -23,9 +22,6 @@ public class Stringcaculater {
 			System.out.println("second : "+ second);
 			
 			result = Gugudan.gugudan(result,symbol,second);
-
-
-			i = i + 2;
 		}
 		Output.print(result);
 	}
